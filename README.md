@@ -43,7 +43,7 @@ Package Python yang digunakan:
 
 - `requests`
 - `rich`
-- `pytest`
+    - `pytest`
 - `black`
 - `ruff`
 
@@ -54,3 +54,11 @@ Package Python yang digunakan:
 ```bash
 git https://github.com/naufal9393/Latihanpemogrman.py.git
 cd sim-mahasiswa
+
+## Dokumentasi
+
+### Menu Utama
+![Menu Utama](docs/menu-utama.png)
+
+### Daftar Mahasiswa
+![Daftar Mahasiswa](docs/daftar-mahasiswa.png)
