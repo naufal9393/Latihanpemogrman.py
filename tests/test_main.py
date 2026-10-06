@@ -145,3 +145,16 @@ def test_cari_nim_tidak_ditemukan():
     hasil = daftar.cari("20241320999")
 
     assert hasil is None
+
+def test_nama_sangat_panjang():
+    nama_panjang = "Naufal " + ("Fauzan " * 20)
+
+    mahasiswa = Mahasiswa(
+        nim="20241320023",
+        nama=nama_panjang,
+        program_studi="Sistem Informasi",
+        angkatan=2024,
+        ipk=3.50,
+    )
+
+    assert mahasiswa.nama == nama_panjang
