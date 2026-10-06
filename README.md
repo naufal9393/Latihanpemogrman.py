@@ -1,6 +1,6 @@
 # Sistem Informasi Mahasiswa
 
-Program sederhana untuk mengelola data mahasiswa menggunakan Python.
+Program sederhana untuk mengelola data mahasiswa menggunakan Python melalui terminal.
 
 ## Identitas
 
@@ -11,25 +11,33 @@ Program sederhana untuk mengelola data mahasiswa menggunakan Python.
 
 ## Deskripsi
 
-Sistem Informasi Mahasiswa merupakan program berbasis Python yang digunakan
-untuk mengelola data mahasiswa secara sederhana melalui terminal.
+Sistem Informasi Mahasiswa merupakan program berbasis Python yang digunakan untuk mengelola data mahasiswa secara sederhana melalui terminal.
 
-Program menyediakan fitur untuk menambahkan, menampilkan, mencari,
-menghapus data mahasiswa, serta mengubah IPK mahasiswa.
+Program menyediakan fitur untuk:
+
+- Menambahkan data mahasiswa
+- Menampilkan seluruh data mahasiswa
+- Mencari mahasiswa berdasarkan NIM
+- Menghapus data mahasiswa
+- Mengubah IPK mahasiswa
+- Melakukan validasi data mahasiswa
 
 ## Fitur
 
-Program memiliki fitur:
+Program memiliki beberapa fitur utama:
 
-1. Tambah Mahasiswa
-2. Tampilkan Semua Mahasiswa
-3. Cari Mahasiswa berdasarkan NIM
-4. Hapus Mahasiswa
-5. Edit IPK Mahasiswa
-6. Validasi NIM
-7. Validasi nama
-8. Validasi IPK
-9. Mencegah NIM duplikat
+1. **Tambah Mahasiswa**
+2. **Tampilkan Semua Mahasiswa**
+3. **Cari Mahasiswa berdasarkan NIM**
+4. **Hapus Mahasiswa**
+5. **Edit IPK Mahasiswa**
+
+Program juga memiliki validasi:
+
+- NIM minimal 6 karakter
+- Nama tidak boleh kosong
+- IPK harus berada pada rentang 0 sampai 4
+- NIM tidak boleh duplikat
 
 ## Requirements
 
@@ -54,12 +62,3 @@ Package Python yang digunakan:
 ```bash
 git clone https://github.com/naufal9393/Latihanpemogrman.py.git
 cd Latihanpemogrman.py
-## Dokumentasi
-
-### Menu Utama
-
-![Menu Utama](docs/menu-utama.png)
-
-### Daftar Mahasiswa
-
-![Daftar Mahasiswa](docs/daftar-mahasiswa.png)
